@@ -1,0 +1,138 @@
+---
+title: "My Storyboard at DACSS - pages"
+#bibliography: testVisual.bib
+output: 
+  flexdashboard::flex_dashboard
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard) # always
+```
+
+Sidebar {.sidebar}
+=====================================
+
+
+Preparing the dashboard based on the instructions given at @magallanes_reyes_data_2022, and @aden-buie_flexdashboard_2023.
+
+This are the results of Covid analysis in Peru through the years based on open data 
+
+LISA and Bivariate LISA analysis were conducted to explore the spatial clustering and local spatial relationships within the dataset.
+
+Chapter 1
+===================================== 
+
+
+
+### Covid 2021: analysis
+
+![](local_autocorrelation_2021.png)
+
+### Covid outliers (Pronvince)
+![](spots_and_outliers_covid_2021.png)
+
+
+Chapter 2
+===================================== 
+
+
+### Covid 2022: analysis
+
+![](local_autocorrelation_2022.png)
+
+### Covid outliers (Pronvince)
+
+![](spots_and_outliers_covid_2022.png)
+
+
+
+Chapter 3
+===================================== 
+
+
+### Covid 2023: analysis
+
+![](local_autocorrelation_2023.png)
+
+
+### Covid outliers (Pronvince)
+
+![](spots_and_outliers_covid_2023.png)
+
+
+Chapter 4
+===================================== 
+
+
+### Covid 2024: analysis
+
+![](local_autocorrelation_2024.png)
+
+### Covid outliers (Pronvince)
+
+![](spots_and_outliers_covid_2024.png)
+
+
+Chapter 5
+===================================== 
+
+
+Column 1
+------------------------------------
+
+![](spots_and_outliers_covid_2021.png){width=80%}
+
+
+Column 2
+------------------------------------
+
+![](spots_and_outliers_covid_2022.png){width=80%}
+
+
+
+Column 3
+------------------------------------
+
+![](spots_and_outliers_covid_2023.png){width=80%}
+
+
+
+Column 4
+------------------------------------
+
+![](spots_and_outliers_covid_2024.png){width=80%}
+
+
+
+Chapter 6
+===================================== 
+
+
+Row 1
+------------------------------------
+
+### COVID 2020-2021
+
+![](spots_and_outliers_covid_2020_2021.png){width=80%}
+
+### COVID 2021-2022
+
+![](spots_and_outliers_covid_2021_2022.png){width=80%}
+
+Row 2
+------------------------------------
+
+### COVID 2022 - 2023
+
+![](spots_and_outliers_covid_2022_2023.png){width=80%}
+
+### COVID 2023 - 2024
+
+![](spots_and_outliers_covid_2023_2024.png){width=80%}
+
+
+
+References
+===================================== 
+
+### 

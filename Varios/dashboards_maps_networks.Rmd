@@ -1,0 +1,76 @@
+---
+title: "My Storyboard at DACSS - pages"
+#bibliography: testVisual.bib
+output: 
+  flexdashboard::flex_dashboard
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard) # always
+```
+
+Sidebar {.sidebar}
+=====================================
+
+
+Preparing the dashboard based on the instructions given at @magallanes_reyes_data_2022, and @aden-buie_flexdashboard_2023
+
+The minister network analysis was conducted as a team with Brisa Cruz
+
+
+Chapter 1: 
+===================================== 
+
+### Argentina: work in progress
+
+![](mapa_arg.png)
+
+Chapter 2: 
+===================================== 
+
+
+### Perú: getting better
+
+![](mapa_peru.png)
+
+
+Chapter 3: 
+===================================== 
+
+
+### Ollanta's ministers: network by university
+
+![](Ministers_Ollanta_Uni.png)
+
+
+Chapter 4: 
+===================================== 
+
+
+### Ollanta's ministers: network by region of origin
+
+![](Ministers_Ollanta_Region.png)
+
+
+Chapter 5
+===================================== 
+
+
+### Pedro Castillo's ministers: network by university
+
+
+![](Ministers_Castillo_Uni.png)
+
+Chapter 6
+===================================== 
+
+### Pedro Castillo's ministers: network by Region
+
+![](Ministers_Ollanta_Region.png)
+
+
+References
+===================================== 
+
+
+
